@@ -4,6 +4,7 @@ import 'dart:convert';
 import 'package:dio/dio.dart';
 import 'package:flutter/services.dart' show rootBundle;
 
+// 第一个版本
 class Request {
   static const String baseUrl = 'http://47.91.255.154:8080';
 
@@ -42,12 +43,15 @@ class Request {
         baseUrl: baseUrl,
         connectTimeout: 10000,
         receiveTimeout: 100000,
-        contentType: ContentType.json,
+        // contentType: ContentType.json,
+        // headers: {"Accept": "application/json"},
+        responseType: ResponseType.json,
         headers: headers);
     return Dio(options);
   }
 }
 
+// 第两个版本
 class Requests {
   String baseUrl;
 
@@ -86,7 +90,8 @@ class Requests {
         baseUrl: baseUrl,
         connectTimeout: 10000,
         receiveTimeout: 100000,
-        contentType: ContentType.json,
+        // contentType: ContentType.json,
+        responseType: ResponseType.json,
         headers: headers);
     return Dio(options);
   }

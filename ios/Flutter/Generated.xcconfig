@@ -1,10 +1,11 @@
 // This is a generated file; do not edit or check into version control.
-FLUTTER_ROOT=/Users/bitcocohe/Software/flutter
-FLUTTER_APPLICATION_PATH=/Users/bitcocohe/Github/flutter_app/viabtc-front
-FLUTTER_TARGET=/Users/bitcocohe/Github/flutter_app/viabtc-front/lib/main.dart
+FLUTTER_ROOT=/Users/aeneas/Google/flutter
+FLUTTER_APPLICATION_PATH=/Users/aeneas/Github/exchange/viabtc-front-flutter
+FLUTTER_TARGET=/Users/aeneas/Github/exchange/viabtc-front-flutter/lib/main.dart
 FLUTTER_BUILD_DIR=build
 SYMROOT=${SOURCE_ROOT}/../build/ios
-FLUTTER_FRAMEWORK_DIR=/Users/bitcocohe/Software/flutter/bin/cache/artifacts/engine/ios
+OTHER_LDFLAGS=$(inherited) -framework Flutter
+FLUTTER_FRAMEWORK_DIR=/Users/aeneas/Google/flutter/bin/cache/artifacts/engine/ios
 FLUTTER_BUILD_NAME=1.0.0
 FLUTTER_BUILD_NUMBER=1
 TRACK_WIDGET_CREATION=true

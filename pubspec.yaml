@@ -20,12 +20,12 @@ dependencies:
   flutter:
     sdk: flutter
   candleline:
-    path: ./packages/flutter-candlesticks
+    path: /Users/aeneas/Github/exchange/viabtc-front-flutter/package/flutter-candlesticks
+  # flutter_candlesticks: ^0.1.4
   json_annotation: ^2.0.0
   cupertino_icons: ^0.1.2
-  dio: ^2.1.7
-  banner_view: 
-    path: ./packages/BannerView
+  dio: ^3.0.9
+  banner_view: "^1.1.2"
   shared_preferences: "^0.4.2"
   date_format: ^1.0.6
 
@@ -40,7 +40,6 @@ dev_dependencies:
 
 # The following section is specific to Flutter.
 flutter:
-
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
   # the material Icons class.
@@ -50,15 +49,11 @@ flutter:
     - assets/img/
     - assets/icon/
     - assets/assert/
-
   #  - images/a_dot_ham.jpeg
-
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
-
   # For details regarding adding assets from package dependencies, see
   # https://flutter.dev/assets-and-images/#from-packages
-
   # To add custom fonts to your application, add a fonts section here,
   # in this "flutter" section. Each entry in this list should have a
   # "family" key with the font family name, and a "fonts" key with a
